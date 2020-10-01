@@ -1,7 +1,7 @@
 // helloWorld function 
-function helloWorld() {
-    return "Hello, World!";
-}
+// function helloWorld() {
+//     return "Hello, World!";
+// }
 
 // const helloWorld = function(){
 //     return "Hello, World!";
@@ -10,6 +10,19 @@ function helloWorld() {
 
 //sayHello function
 
-function sayHello(){
-
+function sayHello(input) {
+    return "Hello, " + input + "!";
 }
+
+
+
+
+
+    //     if (input === "Alex") {
+//         return "Hello, Alex!";
+//     } else if( input === "Pat"){
+//         return "Hello, Pat!";
+//     } else {
+//         return "Hello, Jane!";
+//     }
+// }
