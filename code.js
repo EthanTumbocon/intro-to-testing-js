@@ -9,11 +9,13 @@
 
 
 //sayHello function
-
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (typeof input === "boolean") {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
-
 
 
 
