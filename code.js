@@ -18,9 +18,21 @@ function sayHello(input) {
 }
 
 
+function isFive(x){
+    return x == 5;
+}
+
+function isEven(x) {
+    return x % 2 === 0 && typeof x !== 'boolean';
+}
 
 
-    //     if (input === "Alex") {
+
+
+
+
+
+//     if (input === "Alex") {
 //         return "Hello, Alex!";
 //     } else if( input === "Pat"){
 //         return "Hello, Pat!";
